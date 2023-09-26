@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 body{
     background-color: #F5F5F5;
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
 footer{
@@ -42,7 +43,6 @@ a{
 .icons button{
     height: auto;
     margin-left: 20px;
-    cursor: pointer;
 }
 .icons img{
     width: 20px;
@@ -83,9 +83,11 @@ a{
 }
 .icons button:hover{
     border-width: 1.5px;
+    cursor: pointer;
 }
 .globe:hover{
     border-width: 2px;
+    cursor: pointer;
 }
 a:hover{
     text-decoration: underline;
@@ -124,6 +126,7 @@ hr{
 }
 .btn1:hover{
     opacity: 0.7;
+    cursor: pointer;
     /* background-color: */
     /* transition: 0.3s; */
     /* background-color: rgba(0,0,0,.5); */
