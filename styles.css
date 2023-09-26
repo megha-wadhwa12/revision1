@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
     background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
 }
 
 footer{
+    /* width: 85%; */
     margin-left: 60px;
 }
 
@@ -13,6 +17,7 @@ footer{
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 
 .section1 {
@@ -27,16 +32,17 @@ a{
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    margin-
 }
 
 .icons{
-    display: flexbox;
+    display: flex;
     justify-content:space-around;
+    cursor: pointer;
 }
 .icons button{
     height: auto;
     margin-left: 20px;
+    cursor: pointer;
 }
 .icons img{
     width: 20px;
@@ -64,10 +70,22 @@ a{
 
 .icons button{
     height: 30px;
+    width: auto;
     border-radius: 50%;
     border-width: 0.2px;
-    border-color: #E3E3E3;
+    /* border-color: #E3E3E3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
 
+
+}
+.icons button:hover{
+    border-width: 1.5px;
+}
+.globe:hover{
+    border-width: 2px;
 }
 a:hover{
     text-decoration: underline;
@@ -87,8 +105,6 @@ hr{
     display: inline-block;
     justify-content: space-around;
     align-self: center;
-}
-.sectiondiv2 p{
     margin-right: 15px;
 }
 
@@ -101,16 +117,16 @@ hr{
     width: 130px;
     border: none;
 }
-.btn2{
-    border-radius: 40px;
-    background-color: black;
-    color: white;
-    height: 40px;
-/* padding: 15px; */
-    width: 130px;
-    border: none;
-}
+
 
 .underline{
     text-decoration: underline;
 }
+.btn1:hover{
+    opacity: 0.7;
+    /* background-color: */
+    /* transition: 0.3s; */
+    /* background-color: rgba(0,0,0,.5); */
+
+}
+
